@@ -10,7 +10,7 @@ import streamlit as st
 """
 st.markdown("Welcome to QuickNews, the fastest way to summarize articles and news reports!")
 # Set the URL that you want to make a request to.
-article_url = st.text_input("_:yellow[Enter an article's URL:]_")
+article_url = st.text_input("_Enter an article's URL:_")
 st.markdown("_Created by [Adam Gilani](https://twitter.com/adamgilani)_")
 
 # Feeds API Key From StreamLit "Secrets"
