@@ -16,10 +16,10 @@ st.markdown("_Created by [Adam Gilani](https://twitter.com/adamgilani)_")
 # Feeds API Key From StreamLit "Secrets"
 openai.api_key = st.secrets["API_KEY"]
 
-# State starting text variable with GPT prompt.
-text = "Summarize this information in 400 characters: "
-
 def summarize():
+    # State starting text variable with GPT prompt.
+    text = "Summarize this information in 400 characters: "
+    
     # Make the request and store the response.
     response = requests.get(article_url)
     
